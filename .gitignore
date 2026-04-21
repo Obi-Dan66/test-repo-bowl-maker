@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+
+# keep yarn.lock tracked; ignore npm/pnpm lockfiles
+package-lock.json
+pnpm-lock.yaml
