@@ -42,7 +42,7 @@ const Bowl = forwardRef(function Bowl(
 
       {isFull && (
         <button className="submit-btn" onClick={onSubmit}>
-          Submit
+          Lets heat it up!
         </button>
       )}
     </div>

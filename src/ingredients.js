@@ -12,3 +12,10 @@ export const INGREDIENTS = {
 export const LEFT_IDS = ['apple', 'kiwi', 'banana']
 export const RIGHT_IDS = ['orange', 'lemon', 'berry']
 export const TOP_IDS = ['mint', 'ice']
+
+export const ALL_IDS = [...LEFT_IDS, ...RIGHT_IDS, ...TOP_IDS]
+
+export const INITIAL_COUNTS = ALL_IDS.reduce((acc, id) => {
+  acc[id] = 0
+  return acc
+}, {})
