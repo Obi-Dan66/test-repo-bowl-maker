@@ -10,7 +10,7 @@ export default function HeatStep({ onSubmit }) {
   return (
     <div className="heat-stage">
       <header className="header">
-        <h1>Heat Management</h1>
+        <h1>Heat Management - Strength</h1>
         <p>place coals, tune strength, watch the smoke</p>
       </header>
 
@@ -33,7 +33,7 @@ export default function HeatStep({ onSubmit }) {
 
       <div className="heat-controls">
         <div className="strength-row">
-          <span className="strength-label">Heat</span>
+          <span className="strength-label">Strength</span>
           <input
             type="range"
             min="1"
